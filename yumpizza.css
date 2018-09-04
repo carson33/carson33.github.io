@@ -1,0 +1,90 @@
+body{
+    font-family: cursive,arial,comic;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    
+    
+}
+
+header{
+    background: black;
+    border-bottom: purple 15px solid;
+    color:orange;
+    min-height: 120px;
+    
+}
+
+header a{
+    color:red;
+    text-decoration: none;
+    float:left;
+    
+}
+
+header h1{
+    float:left;
+    margin-top: 50px;
+}
+
+nav{
+    float:right;
+    margin-top: 50px;
+}
+
+header li{
+    
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color:black;
+    
+}
+
+#showcase{
+    background:url(vine.jpg) no-repeat -140px -20px;
+    min-height: 500px;
+    max-height: 600px;
+    color:black;
+    
+    
+}
+
+#showcase h1{
+    color:red;
+    
+}
+
+#hats{
+    margin-top: 20px;
+    
+}
+.hat{
+    float:left;
+    width: 30%;
+    text-align:center;
+}
+.hat h3{
+    color:grey;
+}
+footer{
+    background-color:black;
+    color:red;
+    margin-top:10px;
+    border-top: yellow;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header a:hover{
+    color: pink;
+    font-weight: bold;
+    
+}
+.highlight{
+    color: red;
+    
+}
